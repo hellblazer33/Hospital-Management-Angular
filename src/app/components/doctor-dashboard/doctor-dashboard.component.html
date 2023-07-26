@@ -1,0 +1,71 @@
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../css/dashboard.css"> -->
+    <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> -->
+    <!-- <script type="text/javascript" src="../script/dashboard.js"></script> -->
+    <title>Document</title>
+</head>
+
+
+
+<div class="container">
+    <div class="head">
+        <div class="bookHead">
+            <span class="txtbook">Doctors</span>
+            <!-- <span class="booksCount">({{noofBooks}} items)</span> -->
+        </div>
+        <!-- <select class="dropselect" (change)="sortBookByPrice($event.target)">
+            <option selected value="undefined" disabled>Choose Category</option>
+            <option value="Sort by relevance">Sort by relevance</option>
+            <option value="Price: Low to High">Price: Low to High</option>
+            <option value="Price: High to Low">Price: High to Low</option>
+            <option value="Newest Arrivals">Newest Arrivals</option>
+        </select> -->
+    </div>
+
+    <div class="display" id="display">
+        <div class="bookBox" *ngFor="let user of doctors">
+            <div class="imageBox">
+                <div class="inimageBox">
+                    <img class="image" src="{{user.profile}}">
+
+
+                </div>
+            </div>
+            <div class="dataBox">
+                <div class="booktextBox">
+                    <div class="titletxt">
+                        <!-- use "?"" to apply the null check until the response arrives. -->
+                        <span>{{user.name}}</span>
+                    </div>
+                    <div class="authortxt">
+                        <span>by {{user.department}}</span>
+                    </div>
+                    <div class="ratingBox">
+                        <div class="starBox">
+
+                            <img class="image" src="../../../assets/insta.jpg">
+                        </div>
+                        <!-- <span class="ratingCount">({{book?.totalRating}})</span> -->
+                    </div>
+                    <div class="aaaa">
+                        <span>{{user.address}}</span>
+                        <!-- <div class="wishCartBtn">
+                            <div class="smallIcon">
+                                <img class="bothImg" src="/assets/cart.png" >
+                            </div>
+                            <div class="smallIcon">
+                                <img class="bothImg" src="/assets/coloredHeart.png">
+                            </div>
+
+                        </div> -->
+                    </div>
+                    <div class="buttonclass">
+                        <button class="button" (click)="myFunction(user.name)">Add Appointment</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

@@ -1,0 +1,223 @@
+.container{
+    width: fit-content;
+    box-sizing: border-box;
+}
+
+
+.head {
+    display: flex;
+    position: relative;
+    width: 70vw;
+    left: 16vw;
+    height: 8vh;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 17px;
+}
+
+.bookHead {
+    display: flex;
+    width: 135px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.txtbook {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.booksCount {
+    font-size: 14px;
+    color: #9D9D9D;
+
+}
+
+.dropselect {
+    height: 5vh;
+    width: 13vw;
+    outline: none;
+    font-Size: 15px;
+}
+
+
+/* /////book details css */
+
+.display{
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width:25vw;
+    left: 15vw;
+    flex-wrap: wrap;
+    scroll-behavior: smooth;
+  }
+  
+  mat-card{
+    padding: 0px !important;
+  }
+.bookBox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* // left: 15vw;
+    // top: 5vh; */
+    height: 60vh;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 22.5vw;
+    border: 1px solid #E2E2E2;
+    box-shadow: 0px 5px #c0baba;
+
+}
+.imageBox {
+    display: flex;
+    background-color: #F5F5F5;
+    width: 100%;
+    height: 56%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .inimageBox {
+    width: 80%;
+    height: 70%;
+
+} */
+
+.image {
+    width: 100%;
+    height: 100%;
+}
+
+image2{
+    width: 50px;
+}
+
+.dataBox {
+    display: flex;
+    justify-content: center;
+    height: 17vh;
+
+}
+
+.booktextBox {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 1vh;
+    width: 85%;
+    height: 85%;
+    text-align: left;
+}
+
+.titletxt {
+    font-weight: 500;
+    height: 5vh;
+    font-size: 18px;
+    align-self: center;
+}
+
+.authortxt {
+    font-size: 14px;
+    height: 23%;
+    color: #878787;
+    text-align: center;
+}
+.ratingBox{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 8px;
+    left: 35px;
+    align-items: center;
+    width: 27vh;
+    height: 10vh;    
+    justify-content: space-between;
+    align-self: center;
+}
+.buttonclass{
+    padding-top: 30px;
+    padding-left: 80px;
+    
+}
+.button {
+    background-color: #1b80d3; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    border-radius: 5px;
+    /* box-shadow: 3px 3px #2196F3; */
+  }
+.starBox{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 100%;
+    background-color: #388E3C;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+}
+.starimg{
+    width: 22px;
+    height: 13px;
+    position: relative;
+    bottom: 1px;
+}
+.ratingCount {
+    color: #878787;
+    font-size: 12px;
+}
+.priceBox{
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    position: relative;
+     /* top:1vh; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discountPrice {
+    position: relative;
+    top:2px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #0A0102;
+}
+
+.originalPrice {
+    position: relative;
+    top:3px;
+    font-size: 10px;
+    font-weight: 600;
+    text-decoration: line-through;
+    color: #878787;
+}
+.aaaa{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    top:2vh;
+    height: 4vh;
+    color: #878787;
+    font-size: 14px;
+   text-align: center;
+}
+.wishCartBtn{
+    width: 31%;
+    display: flex;
+    justify-content: space-between;
+}
+.smallIcon{
+    width: 22px;
+}
+.bothImg{
+    cursor: pointer;
+}
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="../css/appointment.css"> -->
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h2 class="font">Add appointment</h2>
+            <!-- <p class="subtitle">Create your account</p> -->
+            <form>
+                <!-- <label for="name">Name:</label> -->
+                <input class="input" name="name" required placeholder="Name" [(ngModel)]="name"><br><br>
+                <input class="input" name="doctor" required placeholder="Doctor" [(ngModel)]="doctor"><br><br>
+                <input class="input" name="email" required placeholder="Email" [(ngModel)]="email"><br><br>
+                <input class="input" name="date" required placeholder="Date" [(ngModel)]="date"><br><br>
+                <!-- <div class="date">
+                    <input class="input" name="from" required placeholder="From" [(ngModel)]="from">
+                    <input class="input2" name="to" required placeholder="To" [(ngModel)]="to">
+                </div> -->
+                <input class="input" name="visittime" required placeholder="Visit Time" [(ngModel)]="visittime"><br><br>
+                <input class="input" name="number" required placeholder="Number" [(ngModel)]="number"><br><br>
+                <input class="input" name="injury" required placeholder="Injury" [(ngModel)]="injury"><br><br>
+
+
+
+
+
+            </form>
+            <!-- 
+            <div class="toggler">
+            <label class="switch">
+                <input type="checkbox">
+                <span class="slider round"></span>
+            </label>  Remember Me <br><br> -->
+            <div class="buttons">
+                <button class="button">Cancel</button>
+                <button class="button2" (click)="createPost()">Add Appointment</button>
+            </div>
+
+        </div>
+        <br>
+        <!-- <p><a style="text-decoration:none" href="./signup.html">Forgot password?</a></p>
+            <p>Don't have an account? <a style="text-decoration:none" href="./signup.html">Sign up!</a></p> -->
+    </div>
+    
+</body>
+
+</html>

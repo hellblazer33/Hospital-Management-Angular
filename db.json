@@ -1,0 +1,81 @@
+{
+  "doctors": [
+    {
+      "name": "Dr Liam",
+      "profile": "../../../assets/doctor.jpg",
+      "gender": "male",
+      "department": "Dentist",
+      "address": "1829 Echo Lane,Bellevue,Michigan,United States 49021",
+      "id": 1
+    },
+    {
+      "name": "Dr Steve",
+      "profile": "../../../assets/doctor2.jpg",
+      "gender": "male",
+      "department": "Dentist",
+      "address": "2986 Alpaca Way,Orange,California,United States 92668",
+      "id": 2
+    }
+  ],
+  "signups": [
+    {
+      "name": "Pankaj Kumar",
+      "email": "pk110495@gmail.com",
+      "password": "11041995",
+      "id": 1
+    },
+    {
+      "name": "Ram Kumar",
+      "email": "rahul@gmail.com",
+      "password": "11041995",
+      "id": 2
+    }
+  
+  ],
+  "appointments": [
+    {
+      "name": "Ram Singh",
+      "photo": "../../../assets/pic1.png",
+      "email": "ram@gmail.com",
+      "date": "14-07-2023",
+      "visittime": "11:40",
+      "number": "9166204303",
+      "doctor": "Dr Steve",
+      "injury": "teeth decay",
+      "id": 1
+    },
+    {
+      "name": "Rahul Kumar",
+      "photo": "../../../assets/pic2.png",
+      "email": "rahul@gmail.com",
+      "date": "14-07-2023",
+      "visittime": "12:20",
+      "number": "7966126515",
+      "doctor": "Dr Liam",
+      "injury": "bad teeth",
+      "id": 2
+    },
+    {
+      "name": "Pankaj",
+      "photo": "../../../assets/pic1.png",
+      "email": "pk110495@gmail.com",
+      "date": "19-07-2023",
+      "visittime": "11:00",
+      "number": "9166204303",
+      "doctor": "Dr Liam",
+      "injury": "cleaning",
+      "id": 3
+    },
+    {
+      "name": "Rahul Kumar",
+      "photo": "../../../assets/pic1.png",
+      "email": "rahul@gmail.com",
+      "date": "20-07-2023",
+      "visittime": "12:00",
+      "number": "9417330468",
+      "doctor": "Dr Steve",
+      "injury": "decay",
+      "id": 4
+    }
+  ]
+}
